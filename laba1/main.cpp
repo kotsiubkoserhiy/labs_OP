@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
         if (string(argv[1]) == "-mode" && string(argv[2]) == "FilePointer"){
             cout << "--------( -mode FilePointer )--------" << endl;
             //------------------------------------------------
-            char path[13]; //чому однакові імена змінних
+            char path[13];
             cout << "Enter file name:  "; gets(path);
             createFile(path);
             //------------------------------------------------
